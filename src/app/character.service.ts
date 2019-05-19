@@ -20,6 +20,10 @@ export class CharacterService {
 
   constructor() { }
 
+  getValue(data) {
+    return this.number_patterns.findIndex(data)
+  }
+
 
 
 
